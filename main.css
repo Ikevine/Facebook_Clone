@@ -63,11 +63,15 @@ nav{
 }
 .left_aside{
 text-align: center;
-width: 20%;
+width: 18%;
 overflow: hidden;
 border-bottom: 2px solid black;
 }
 
+.botton_left h2{
+  margin: 1rem 0;
+ margin-left: 2rem;
+ }
 .left_aside div{
     display: flex;
     margin: 2rem 0 ;
