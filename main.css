@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    background-color: rgb(40, 40, 217);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    height: 4rem;
+    color:white;
+    padding: 0 3rem;
+}
+.lnav{
+    display: flex;
+}
+.lnav h3{
+ font-size: 2rem;
+}
+.icons{
+    display: flex;
+    margin-left: 1rem;
+    align-items: center;
+}
+.icons i{
+    margin-left: 3rem;
+    font-size: 1.3rem;
+}
+
+.sidenav{
+    display: flex;
+}
+.sidenav input{
+    width: 15rem;
+    height: 2rem;
+    margin: auto;
+    border: 1px solid transparent;
+    border-radius: 0.7rem ;
+    margin-right: 1rem;
+}
+.sidenav img{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+}
