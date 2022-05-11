@@ -243,3 +243,47 @@ small{
     margin-right:1.5rem;
     font-weight: bold;
 }
+
+.generalPost{
+    width: 100%;
+    background-color: white;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+.avatinf img{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+}
+.avatinf{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.posticons{
+    display: flex; 
+    justify-content: space-between;
+}
+.short p{
+ color: darkgray;
+ margin-top: 00.2rem;
+}
+.tcolor{
+    color: blue;
+}
+.proleft span{
+    margin-right: 1.5rem;
+    color: rgb(91, 84, 84);
+}
+.proleft i{
+ margin-right: 0.3rem;
+}
+.thumb{
+    color: blue;
+}
+.generalPost>img{
+   width: 100%;
+   height: 20rem;
+   object-fit: cover;
+}
