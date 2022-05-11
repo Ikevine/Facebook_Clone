@@ -92,7 +92,6 @@ position: relative;
     width: 90%;
     height: 100vh;
     margin: 0 auto;
-    background-color: aliceblue;
     display: flex;
 }
 .leftbar{
@@ -106,8 +105,9 @@ margin-right: 1.4rem;
 }
 .rightbar{
 width: 20%;
-background-color: bisque;
+background-color:white;
 height: 100vh;
+padding: 0.6rem;
 }
 /* ==================================== left nav bar start here ========================================== */
 .upperleft{
@@ -286,4 +286,89 @@ small{
    width: 100%;
    height: 20rem;
    object-fit: cover;
+}
+
+/* ======================================= right side  start here ======================== */
+.right_up{
+    display: flex;
+    justify-content: space-between;
+}
+.right_up h4>a{
+   color: blue;
+}
+.right_up h4{
+    font-size:1.2rem
+ }
+ .right2nd{
+    
+ }
+ .contain2nd{
+    width: 5rem;
+    height: 5rem;
+    background-color: white;
+    border-radius: 0.5rem;
+    text-align: center;
+    position: relative;
+    margin-top: 1.5rem;
+
+ }
+ .contain2nd>div{
+     position: absolute;
+     bottom: 0;
+     width: 100%;
+     height:1.8rem;
+     border-bottom-left-radius: 0.5rem;
+     border-bottom-right-radius: 0.5rem;
+     background-color: blue;
+     color: white;
+     text-align: center;
+ }
+ .right-short h4{
+    padding: 0.3rem;
+ }
+ .rigdisplay{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+ }
+
+ .adv{
+     width: 100%;
+     overflow: hidden;
+     padding: 0.5rem;
+     margin-top: 1rem;    
+ }
+ .mainc{
+     width: 100%;
+     display: flex;
+     justify-content: space-between;
+     padding-bottom: 1rem;
+ }
+ .mainc h3{
+    font-size: 1.3rem;
+}
+.img3{
+    width: 100%;
+    height: 10rem;
+}
+.conversation{
+    margin-top: 1.5rem;
+}
+.mainconva{
+    display: flex;
+    justify-content: space-between;
+}
+.mainconva h4{
+    color: blue;
+}
+.person_online{
+    display: flex;
+    gap: 1rem;
+    text-align: center;
+    align-items: center;
+}
+.person_online img{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
 }
